@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import linear_model
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 
-df = pd.read_csv('/Users/anushakonakalla/lab/kc_house_data.csv')
+df = pd.read_csv('kc_house_data.csv')
 
 df.info()
 
